@@ -2,6 +2,7 @@ public class Calculator {
     private int a;
     private int b;
 
+
     public Calculator(int a,int b){
         this.a = a;
         this.b = b;
@@ -19,5 +20,9 @@ public class Calculator {
         return a * b;
     }
 
-    
+    public double divideNumbers(int a , int b){
+        return a / b;
+    }
+
+
 }

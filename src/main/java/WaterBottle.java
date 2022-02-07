@@ -18,4 +18,10 @@ public class WaterBottle {
        volume = 0;
        return volume;
     }
+
+    public int refillBottle(int volume){
+        volume = 100;
+        return volume;
+
+    }
 }

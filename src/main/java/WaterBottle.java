@@ -9,19 +9,17 @@ public class WaterBottle {
        return this.volume;
     }
 
-    public int drinkWater(int volume){
-        int newVolume = volume -10;
-        return newVolume;
+    public void drinkWater(){
+        this.volume -= 10;
     }
 
-    public int emptyBottle(int volume){
-       volume = 0;
-       return volume;
+    public void emptyBottle(){
+       this.volume = 0;
+
     }
 
-    public int refillBottle(int volume){
-        volume = 100;
-        return volume;
+    public void refillBottle(){
+        this.volume = 100;
 
     }
 }
